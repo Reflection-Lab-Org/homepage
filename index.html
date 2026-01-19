@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Arcana Insight Studio — Guided Reflection & Clarity Tools</title>
+  <meta name="description" content="Digital guided reflection and clarity-building experiences powered by AI. One-time sessions and subscriptions. Delivered online." />
+  <style>
+    :root{--bg:#0b0b14;--card:#12122a;--muted:#a8a8c7;--text:#f2f2ff;--accent:#b79cff;--accent2:#86f0d1;--line:rgba(255,255,255,.10)}
+    *{box-sizing:border-box} html,body{margin:0;padding:0}
+    body{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; background:radial-gradient(1200px 800px at 20% 10%, rgba(183,156,255,.18), transparent 60%),radial-gradient(900px 600px at 80% 30%, rgba(134,240,209,.12), transparent 60%),var(--bg); color:var(--text); line-height:1.55}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:1024px;margin:0 auto;padding:28px 18px 60px}
+    .topbar{display:flex;justify-content:space-between;align-items:center;gap:12px}
+    .brand{display:flex;align-items:center;gap:10px}
+    .logo{width:36px;height:36px;border-radius:12px;background:linear-gradient(135deg, rgba(183,156,255,.95), rgba(134,240,209,.75));box-shadow:0 12px 30px rgba(183,156,255,.18)}
+    .brand h1{font-size:14px;letter-spacing:.6px;margin:0;text-transform:uppercase}
+    .pill{border:1px solid var(--line);border-radius:999px;padding:10px 12px;background:rgba(255,255,255,.04);color:var(--muted);font-size:12px}
+    .hero{margin-top:36px;display:grid;grid-template-columns:1.15fr .85fr;gap:18px}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}}
+    .card{border:1px solid var(--line);border-radius:18px;padding:22px;background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));backdrop-filter:blur(10px)}
+    .headline{font-size:40px;line-height:1.08;margin:0 0 12px}
+    @media (max-width:520px){.headline{font-size:32px}}
+    .sub{color:var(--muted);font-size:16px;margin:0 0 18px}
+    .ctaRow{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:11px 14px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--text);font-weight:600}
+    .btn.primary{border-color:rgba(183,156,255,.55);background:linear-gradient(135deg, rgba(183,156,255,.35), rgba(134,240,209,.18));box-shadow:0 14px 35px rgba(183,156,255,.16)}
+    .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
+    @media (max-width:900px){.grid3{grid-template-columns:1fr}}
+    .k{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.6px}
+    .v{margin-top:6px;font-size:14px}
+    .section{margin-top:18px}
+    .section h2{margin:0 0 10px;font-size:16px;letter-spacing:.4px}
+    .list{margin:0;padding-left:18px;color:var(--muted)}
+    .list li{margin:6px 0}
+    .mini{font-size:12px;color:rgba(242,242,255,.70);border-top:1px solid var(--line);padding-top:14px;margin-top:18px}
+    .footer{margin-top:28px;color:rgba(242,242,255,.62);font-size:12px}
+    .split{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;align-items:center}
+    .tag{font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:8px 10px;background:rgba(255,255,255,.03)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <h1>Arcana Insight Studio</h1>
+      </div>
+      <div class="pill">Digital services • One-time sessions & subscriptions</div>
+    </div>
+
+    <div class="hero">
+      <div class="card">
+        <h2 class="headline">Guided reflection and clarity,<br/>designed for modern life.</h2>
+        <p class="sub">
+          We build AI-assisted experiences that help people slow down, see patterns, and regain clarity.
+          Our products combine interpretive tools with structured prompts and personalized summaries, delivered entirely online.
+        </p>
+
+        <div class="ctaRow">
+          <a class="btn primary" href="#offerings">What we offer</a>
+          <a class="btn" href="#contact">Contact</a>
+        </div>
+
+        <div class="grid3">
+          <div class="card" style="padding:14px">
+            <div class="k">Experiences</div>
+            <div class="v">Guided sessions, interpretive tools, and structured prompts</div>
+          </div>
+          <div class="card" style="padding:14px">
+            <div class="k">Delivery</div>
+            <div class="v">Instant digital access via our website</div>
+          </div>
+          <div class="card" style="padding:14px">
+            <div class="k">Pricing</div>
+            <div class="v">One-time purchases and optional subscriptions</div>
+          </div>
+        </div>
+
+        <div class="mini">
+          Content is provided for self-reflection and entertainment purposes and does not constitute medical, legal, or financial advice.
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="section" id="offerings">
+          <h2>What we offer</h2>
+          <ul class="list">
+            <li><b>One-time sessions</b>: focused, guided experiences with a clear takeaway and next-step prompts.</li>
+            <li><b>Subscriptions</b>: ongoing access, saved history, and deeper reflection workflows.</li>
+            <li><b>Interpretive experiences</b>: optional modules such as symbolic readings (e.g., tarot-style) and themed guidance.</li>
+            <li><b>Decision clarity tools</b>: structured frameworks to compare options and uncover trade-offs.</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>Common themes</h2>
+          <ul class="list">
+            <li>Relationships, career, creativity, identity, habits, and life transitions</li>
+            <li>Turning uncertainty into an actionable plan</li>
+            <li>Journaling-style summaries to support continuity over time</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>Payment & delivery</h2>
+          <ul class="list">
+            <li>Payments are processed securely.</li>
+            <li>All services are delivered digitally; no physical goods are shipped.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:18px">
+      <div class="split">
+        <div>
+          <div class="k" id="contact">Contact</div>
+          <div class="v">Email: <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a></div>
+          <div class="v">Website: <span style="color:var(--muted)">https://yourdomain.com</span></div>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end">
+          <span class="tag">Guided reflection</span>
+          <span class="tag">Clarity tools</span>
+          <span class="tag">AI-assisted</span>
+          <span class="tag">Digital delivery</span>
+        </div>
+      </div>
+
+      <div class="footer">
+        Disclaimer: Our content is provided for self-reflection and entertainment purposes. It is not professional advice.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
